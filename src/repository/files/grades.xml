@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grades>
+    <Grade hid="1" sid="2222">
+        <grade>6.0</grade>
+        <week>14</week>
+        <deadline>7</deadline>
+        <feedback>EH; Intarziat, dar motivat</feedback>
+        <studentName>Dumitru Bln</studentName>
+        <prof>tzutzu@cs.ubbcluj.ro</prof>
+    </Grade>
+    <Grade hid="1" sid="2250">
+        <grade>10.0</grade>
+        <week>8</week>
+        <deadline>7</deadline>
+        <feedback>bv; Intarziat, dar motivat</feedback>
+        <studentName>Rafaila Alex</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="3" sid="2250">
+        <grade>8.0</grade>
+        <week>9</week>
+        <deadline>10</deadline>
+        <feedback>;bvbv!</feedback>
+        <studentName>Rafaila Alex</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="5" sid="2222">
+        <grade>10.0</grade>
+        <week>14</week>
+        <deadline>13</deadline>
+        <feedback>cool; Intarziat, dar motivat</feedback>
+        <studentName>Dumitru Bln</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="1" sid="2132">
+        <grade>10.0</grade>
+        <week>7</week>
+        <deadline>7</deadline>
+        <feedback>ok;</feedback>
+        <studentName>Jack Daniels</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="6" sid="2222">
+        <grade>10.0</grade>
+        <week>14</week>
+        <deadline>6</deadline>
+        <feedback>nice; Intarziat, dar motivat</feedback>
+        <studentName>Dumitru Bln</studentName>
+        <prof>tzutzu@cs.ubbcluj.ro</prof>
+    </Grade>
+    <Grade hid="2" sid="2236">
+        <grade>10.0</grade>
+        <week>9</week>
+        <deadline>8</deadline>
+        <feedback>cool; Intarziat, dar motivat</feedback>
+        <studentName>Badita Marin</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="3" sid="2132">
+        <grade>10.0</grade>
+        <week>14</week>
+        <deadline>10</deadline>
+        <feedback>good boi; Intarziat, dar motivat</feedback>
+        <studentName>Jack Daniels</studentName>
+        <prof>tzutzu@cs.ubbcluj.ro</prof>
+    </Grade>
+    <Grade hid="1" sid="2236">
+        <grade>10.0</grade>
+        <week>9</week>
+        <deadline>7</deadline>
+        <feedback>nice; Intarziat, dar motivat</feedback>
+        <studentName>Badita Marin</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="2" sid="2132">
+        <grade>1.0</grade>
+        <week>11</week>
+        <deadline>8</deadline>
+        <feedback>uu; INTARZIERE CU MAI MULT DE 2 SAPTAMANI!</feedback>
+        <studentName>Jack Daniels</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="5" sid="2132">
+        <grade>7.0</grade>
+        <week>14</week>
+        <deadline>13</deadline>
+        <feedback>; Intarziat, dar motivat</feedback>
+        <studentName>Jack Daniels</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="3" sid="2236">
+        <grade>8.0</grade>
+        <week>14</week>
+        <deadline>10</deadline>
+        <feedback>; Intarziat, dar motivat</feedback>
+        <studentName>Badita Marin</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="1" sid="2239">
+        <grade>1.0</grade>
+        <week>14</week>
+        <deadline>7</deadline>
+        <feedback>; INTARZIERE CU MAI MULT DE 2 SAPTAMANI!</feedback>
+        <studentName>Anton Mihai</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="3" sid="2239">
+        <grade>4.0</grade>
+        <week>14</week>
+        <deadline>10</deadline>
+        <feedback>; Intarziat, dar motivat</feedback>
+        <studentName>Anton Mihai</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="2" sid="2239">
+        <grade>1.0</grade>
+        <week>11</week>
+        <deadline>8</deadline>
+        <feedback>; INTARZIERE CU MAI MULT DE 2 SAPTAMANI!</feedback>
+        <studentName>Anton Mihai</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="5" sid="2239">
+        <grade>10.0</grade>
+        <week>12</week>
+        <deadline>13</deadline>
+        <feedback>bvbv</feedback>
+        <studentName>Anton Mihai</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="2" sid="2243">
+        <grade>10.0</grade>
+        <week>7</week>
+        <deadline>8</deadline>
+        <feedback>ggood;</feedback>
+        <studentName>Bilaniuc Dragos</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="1" sid="2243">
+        <grade>7.5</grade>
+        <week>8</week>
+        <deadline>7</deadline>
+        <feedback>good; INTARZIERE CU 1 SAPTAMANA!</feedback>
+        <studentName>Bilaniuc Dragos</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="4" sid="2243">
+        <grade>1.0</grade>
+        <week>14</week>
+        <deadline>11</deadline>
+        <feedback>good;
+        </feedback>
+        <studentName>Bilaniuc Dragos</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="3" sid="2243">
+        <grade>1.0</grade>
+        <week>14</week>
+        <deadline>10</deadline>
+        <feedback>good; INTARZIERE CU MAI MULT DE 2 SAPTAMANI!</feedback>
+        <studentName>Bilaniuc Dragos</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+    <Grade hid="6" sid="2243">
+        <grade>1.0</grade>
+        <week>14</week>
+        <deadline>6</deadline>
+        <feedback>ggood;; INTARZIERE CU MAI MULT DE 2 SAPTAMANI!</feedback>
+        <studentName>Bilaniuc Dragos</studentName>
+        <prof>tzutzu@cs.ubbcluj.ro</prof>
+    </Grade>
+    <Grade hid="5" sid="2243">
+        <grade>7.5</grade>
+        <week>14</week>
+        <deadline>13</deadline>
+        <feedback>cool; INTARZIERE DE -1 SAPTAMANI; NOTA DIMINUATA CU -2.5!!!</feedback>
+        <studentName>Bilaniuc Dragos</studentName>
+        <prof>admin@mail.com</prof>
+    </Grade>
+</grades>

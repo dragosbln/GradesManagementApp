@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="pane" prefHeight="600.0" prefWidth="900.0" styleClass="border-pane" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.App.AppController">
+    <stylesheets>
+        <URL value="@../stylesheets/App.css" />
+    </stylesheets>
+    <top>
+        <AnchorPane>
+            <HBox fx:id="menu" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" BorderPane.alignment="CENTER">
+                <children>
+                </children>
+            </HBox>
+         <VBox fx:id="logInfo" prefHeight="67.0" prefWidth="100.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="20.0">
+            <children>
+               <Label styleClass="log-info" text="Logged in as:" />
+               <Label styleClass="log-info" fx:id="emailLabel" />
+               <Label onMouseClicked="#logout" text="Log out" styleClass="switch-label" />
+            </children>
+         </VBox>
+         <ImageView fx:id="closeImg" onMouseClicked="#closeApp" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+            <image>
+               <Image url="@../../assets/x.png" />
+            </image>
+         </ImageView>
+        </AnchorPane>
+    </top>
+    <center>
+
+    </center>
+</BorderPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students>
+    <student id="2236">
+        <name>Badita Marin</name>
+        <email>bmir2243@scs.ubbcluj.ro</email>
+        <group>221</group>
+    </student>
+    <student id="2244">
+        <name>Captain Morgan</name>
+        <email>cmir2244@scs.ubbcluj.ro</email>
+        <group>222</group>
+    </student>
+    <student id="2222">
+        <name>Dumitru Bln</name>
+        <email>dragos.bilaniuc@gmail.com</email>
+        <group>222</group>
+    </student>
+    <student id="2243">
+        <name>Bilaniuc Dragos</name>
+        <email>bdir2243@scs.ubbcluj.ro</email>
+        <group>221</group>
+    </student>
+    <student id="2132">
+        <name>Jack Daniels</name>
+        <email>jack@ubbcluj.ro</email>
+        <group>221</group>
+    </student>
+    <student id="2239">
+        <name>Anton Mihai</name>
+        <email>amir2210@scs.ubbcluj.ro</email>
+        <group>221</group>
+    </student>
+    <student id="2250">
+        <name>Rafaila Alex</name>
+        <email>rair2250@scs.ubbcluj.ro</email>
+        <group>225</group>
+    </student>
+    <student id="2251">
+        <name>Chencian Laurentiu</name>
+        <email>clie2251@scs.ubbcluj.ro</email>
+        <group>222</group>
+    </student>
+    <student id="2239">
+        <name>Popovici Laura</name>
+        <email>plir2210@scs.ubbcluj.ro</email>
+        <group>222</group>
+    </student>
+</students>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.layout.VBox?>
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.components.Student.StudentViewController">
+    <children>
+        <BorderPane prefHeight="600.0" prefWidth="900.0">
+            <center>
+                <TableView fx:id="tableView" maxHeight="400.0" prefWidth="300.0" BorderPane.alignment="TOP_CENTER">
+                    <columns>
+                        <TableColumn text="Id">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="iD"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn text="Name">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="name"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn text="Group">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="group"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn text="Email">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="email"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                    </columnResizePolicy>
+                </TableView>
+            </center>
+            <right>
+                <GridPane hgap="10" prefHeight="600" prefWidth="300" vgap="10" BorderPane.alignment="CENTER">
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                    </padding>
+                    <Text fill="WHITE" text="Student" textAlignment="CENTER" GridPane.columnIndex="0"
+                          GridPane.columnSpan="2" GridPane.rowIndex="0">
+                        <font>
+                            <Font name="Tahoma Bold" size="32.0"/>
+                        </font>
+                    </Text>
+                    <Label text="ID:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="1"/>
+                    <TextField fx:id="idTxt" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="1"/>
+                    <Label text="Name:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="2"/>
+                    <TextField fx:id="nameTxt" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="2"/>
+                    <Label text="Group:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="3"/>
+                    <TextField fx:id="groupTxt" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="3"/>
+                    <Label text="Email:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="4"/>
+                    <TextField fx:id="emailTxt" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="4"/>
+                    <VBox alignment="CENTER" spacing="15.0" GridPane.columnIndex="0" GridPane.columnSpan="2"
+                          GridPane.rowIndex="6">
+                        <HBox fx:id="modifyBtns" alignment="CENTER" spacing="10">
+                            <Button onAction="#addClicked" text="Add"/>
+                            <Button onAction="#deleteClicked" text="Delete"/>
+                            <Button onAction="#updateClicked" text="Update"/>
+                        </HBox>
+                        <Button onAction="#clearClicked" text="Clear" prefWidth="125"/>
+                    </VBox>
+                    <columnConstraints>
+                        <ColumnConstraints/>
+                        <ColumnConstraints/>
+                        <ColumnConstraints/>
+                        <ColumnConstraints/>
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints/>
+                        <RowConstraints/>
+                        <RowConstraints/>
+                        <RowConstraints/>
+                        <RowConstraints/>
+                        <RowConstraints/>
+                        <RowConstraints/>
+                    </rowConstraints>
+
+
+                </GridPane>
+            </right>
+        </BorderPane>
+    </children>
+</AnchorPane>

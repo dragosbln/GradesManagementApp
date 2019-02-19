@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.components.Grade.GradeViewController">
+    <children>
+        <HBox minHeight="400.0">
+            <VBox maxHeight="500" maxWidth="500">
+                <TableView fx:id="tableView">
+                    <columns>
+                        <TableColumn maxWidth="35" minWidth="35" text="SID">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="sid" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn text="Name">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="studentName" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn text="Professor">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="prof" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn maxWidth="35" minWidth="35" text="HID">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="hid" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn maxWidth="50" minWidth="50" text="Grade">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="grade" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn maxWidth="50" minWidth="50" text="Week">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="week" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn maxWidth="70" minWidth="70" text="Deadline">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="deadline" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn text="Feedback">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="feedback" />
+                            </cellValueFactory>
+                        </TableColumn>
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+                <GridPane hgap="10" prefHeight="23.0" prefWidth="300.0" vgap="10">
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                    <Label minWidth="150" text="Student Name/ID:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="1" />
+                    <Label text="Homework ID:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="2" />
+                    <TextField fx:id="hidTxt" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="2" />
+                    <Label text="Grade:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="3" />
+                    <TextField fx:id="gradeTxt" maxWidth="50" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="3" />
+                    <Label text="Feedback:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="4" />
+                    <TextArea fx:id="feedbackTxt" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="4" />
+                    <Label text="Motivated: " GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="5" />
+                    <CheckBox fx:id="modivatedCheckBox" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="5" />
+                    <HBox fx:id="addBtn" alignment="CENTER" prefHeight="42.0" prefWidth="260.0" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="6">
+                        <Button minWidth="400.0" onAction="#addClicked" text="Add" />
+                    </HBox>
+               <StackPane fx:id="namePane" prefHeight="20" maxWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                    <columnConstraints>
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                    </rowConstraints>
+
+
+                </GridPane>
+            </VBox>
+            <VBox fx:id="filterView" alignment="TOP_CENTER" prefHeight="600.0" prefWidth="400">
+                <GridPane alignment="CENTER" hgap="10" vgap="5">
+                    <Label text="Begin:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="1" />
+                    <DatePicker fx:id="beginDate" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="1" />
+                    <Label text="End:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="2" />
+                    <DatePicker fx:id="endDate" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="2" />
+                    <columnConstraints>
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints />
+                        <RowConstraints />
+                  <RowConstraints />
+                    </rowConstraints>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+                </GridPane>
+                <HBox alignment="CENTER" prefHeight="31.0" prefWidth="293.0">
+                    <Button onAction="#filterByDate" text="Filter by Date" GridPane.columnIndex="1" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" />
+                </HBox>
+                <GridPane hgap="10.0" vgap="30.0">
+                    <columnConstraints>
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints />
+                        <RowConstraints />
+                  <RowConstraints />
+                    </rowConstraints>
+                    <children>
+                        <Label minWidth="150" text="Filter by Name:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="0" />
+                        <TextField fx:id="filterNameTxt" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="0" />
+                        <Label text="Filter by Group:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="1" />
+                        <ComboBox fx:id="groupCombo" prefHeight="31.0" prefWidth="246.0" promptText="Select group" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="1" />
+                        <Label text="Filter by Homework:" GridPane.columnIndex="0" GridPane.columnSpan="1" GridPane.rowIndex="2" />
+                        <ComboBox fx:id="homeworkCombo" prefHeight="31.0" prefWidth="246.0" promptText="Select homework" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="2" />
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="30.0" />
+                    </VBox.margin>
+                </GridPane>
+                <Button fx:id="clearButton" onAction="#clearPressed" prefWidth="156.0" text="Clear">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin></Button>
+
+            </VBox>
+        </HBox>
+    </children>
+</AnchorPane>
