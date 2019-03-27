@@ -11,5 +11,6 @@
     <li>Reports</li> 
     <li>Conditional access to different features</li> 
   </ul>
-  <li>Design pattern used:</li> 
 </ul>
+
+![](https://github.com/dragosbln/GradesManagementApp/blob/master/s1.PNG)
