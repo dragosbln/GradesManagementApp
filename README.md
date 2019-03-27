@@ -14,3 +14,6 @@
 </ul>
 
 ![](https://github.com/dragosbln/GradesManagementApp/blob/master/s1.PNG)
+![](https://github.com/dragosbln/GradesManagementApp/blob/master/s2.PNG)
+![](https://github.com/dragosbln/GradesManagementApp/blob/master/3.PNG)
+![](https://github.com/dragosbln/GradesManagementApp/blob/master/4.PNG)
