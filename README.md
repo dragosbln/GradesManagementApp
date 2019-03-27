@@ -1,4 +1,15 @@
 # GradesManagementApp
-Extended college project
-An app for grades management inside universities. Implements concepts such as authentication, multi-threading, conditional access to certain fucntionalities, etc.
-When creating an account, your access to functionaities will be RESTRICTED by default. You will need an admin to give you full acess. Initial admin account: admin@mail.com pass: admin123
+<h3> Extended college project </h3>
+<ul> 
+  <li>App for managing university students</li> 
+  <li>Build using Java and Java FXML Tools</li> 
+  <li>Includes features such as:</li> 
+  <ul> 
+    <li>Authentication & Security</li> 
+    <li>Automatically sending notification emails</li> 
+    <li>Filters</li> 
+    <li>Reports</li> 
+    <li>Conditional access to different features</li> 
+  </ul>
+  <li>Design pattern used:</li> 
+</ul>
